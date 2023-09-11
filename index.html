@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="frontend/resources/css/libraries/bulma-0.9.1/css/bulma.min.css">
+        <link rel="stylesheet" href="frontend/resources/css/main.css">
+        <link rel="icon" href="frontend/resources/media/andreaholland.jpg">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta content="Andrea Holland" property="og:title">
+        <meta content="Andrea Holland is an accomplished poet, writer, and lecturer in Creative Writing at the University of East Anglia, winner of the Café Writers Norfolk Commission and first prize winner of the Sentinel Literary Quarterly poetry competition. Her latest collection of poems, Broadcasting, was published by Gatehouse Press in 2013." property="og:description">
+        <meta content="Andrea Holland - Acomplished poet at University of East Anglia." property="og:site_name">
+        <meta content="frontend/resources/media/andreaholland.jpg" property="og:image">
+        <meta name="theme-color" content="#4682B4">
+        <script src="frontend/resources/js/libraries/jquery-3.5.1.min.js"></script>
+        <script src="frontend/resources/js/main.js"></script>
+        <script src="frontend/resources/js/pageLoader.js"></script>
+        <title>Andrea Holland</title>
+    </head>
+    <body>
+        <div id="sideNavBar" class="menu">
+            <ul class="menu-list">
+                <li><a href="./?p=home">Home</a></li>
+                <li><a>About</a></li>
+                <li>
+                    <a>Poetry<span>&nbsp;&nbsp;V</span></a>
+                    <ul class="is-hidden">
+                        <li><a>Adaptation</a></li>
+                        <li><a>Broadcasting</a></li>
+                        <li><a>Inheritance</a></li>
+                        <li><a>On Not Writing A Villanelle</a></li>
+                    </ul>
+                </li>
+                <li><a href="./?p=teaching">Teaching and editing</a></li>
+                <!-- <li><a href="./?p=events">Events</a></li> -->
+                <li><a href="./?p=links">Links</a></li>
+                <li><a href="./?p=contact">Contact</a></li>
+                <li><a id="legal">Legal</a></li>
+                <hr class="is-hidden-desktop">
+                <div class="columns is-mobile is-hidden-desktop is-vcentered">
+                    <div class="column">
+                        <a class="twitterButton" href="https://twitter.com/HollandAndreaUK">
+                            <img src="frontend/resources/media/Twitter_Social_Icon_Circle_Color.png" target="_blank" alt="Twitter logo in a circle shape">
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a class="linkedinButton" href="http://uk.linkedin.com/pub/andrea-holland/9/b02/844" target="_blank" alt="Linkedin logo in a circle shape"></a>
+                    </div>
+                </div>
+            </u>
+        </div>
+        <div id="core">
+            <div id="page">
+                <header class="level">
+                    <div class="level-left">
+                        <h1 class="title is-2">
+                            <a href="./?p=about">Andrea Holland</a>
+                        </h1>
+                    </div>
+                    <div id="search" class="level-right">
+                        <div class="columns is-gapless is-mobile">
+                            <div class="column">
+                                <input class="input is-small" type="text">
+                            </div>
+                            <div class="column">
+                                <button id="searchButton" class="button is-small">Search This Site</button>
+                            </div>
+                        </div>
+                    </div>                
+                </header>
+                <div id="bodyObject">
+                    <div id="contentContainer" class="m-4">
+                        
+                    </div>
+                </div>
+            </div>
+            <section id="footer" class="hero is-primary is-bold">
+                <div class="hero-body">
+                    <div class="container">
+                        <div class="columns">
+                            <div class="column is-half">
+                                <div class="columns is-multiline">
+                                    <div class="column is-full">
+                                        <hr>
+                                        <a id="bulmaLogo" class="button" href="https://bulma.io" alt="Made with Bulma"></a>
+                                    </div>
+                                    <div class="column">
+                                        <hr>
+                                        <a id="jQueryLogo" class="button" href="https://jquery.com/"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column is-half">
+                                <div class="columns is-multiline">
+                                    <div class="column is-full">
+                                        <hr>
+                                        <figure class="image is-128x128"><img src="resources/media/rocket-minus-bg.png" alt="A rock-it production."></figure>
+                                        <span>A Rockit Production...</span>
+                                    </div>
+                                    <div class="column is-full">
+                                        <hr>
+                                        <p></p><a href="#">Recent Site Activity</a>&nbsp;|&nbsp;<a href="javascript:print()">Print Page</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div id="pageButtons" class="columns">
+            <div class="column is-hidden-touch">
+                <a class="linkedinButton" href="http://uk.linkedin.com/pub/andrea-holland/9/b02/844" target="_blank" alt="Linkedin logo in a circle shape"></a>
+            </div>
+            <div class="column is-hidden-touch">
+                <a class="twitterButton" href="https://twitter.com/HollandAndreaUK">
+                    <img src="frontend/resources/media/Twitter_Social_Icon_Circle_Color.png" target="_blank" alt="Twitter logo in a circle shape">
+                </a>
+            </div>
+            <div class="column">
+                <a id="burger"><span>&#9776;</span></a>
+            </div>
+        </div>
+    </body>
+</html>

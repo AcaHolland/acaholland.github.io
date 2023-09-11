@@ -1,0 +1,84 @@
+{
+    "articles": [
+        {
+            "id": 0,
+            "title": "Dreaming of a Summer's Night",
+            "date": "27072018",
+            "author": "New Amusements",
+            "body": "<p>Andrea will be performing as part of &#147;Dreaming of a Summer's Night&#148;, an evening of music and poetry hosted by the Anteros Arts Foundation on the 8th July.<br>More details can be found on the <a href=\"https://www.anterosfoundation.com/music\">Anteros website</a>.</p>",
+            "attachment": ""
+        },
+        {
+            "id": 1,
+            "title": "Short story \"The Transistor\" published",
+            "date": "11122018",
+            "author": "New Amusements",
+            "body": "<p><i>The Petrified World and other tales</i> includes Andrea's short story <i>The Transistor</i>. The collection, featuring eleven short stories by new and emerging writers, takes the idea of taboos, of hidden subjects, of unspoken truths, as its loose theme.</p><br><p>All profits from <i>The Petrified World</i> and other tales* will be donated to the charity <a href=\"http://populationmatters.org/\">Population Matters</a>. It can be purchased, as a paperback or ebook, from Amazon <a href=\"http://bit.ly/petrifiedbk\">here</a>.</p>",
+            "attachment": "./resources/media/the_petrifieied_world.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Andrea returns to Anteros as part of \"Shame\"",
+            "date": "11122018",
+            "author": "New Amusements",
+            "body": "<p>The 19th of January 2019 sees the Anteros Arts Foundation, Norwich, stage <i>Shame</i>: two excoriating mythic monologues, adapted for Ovid’s Metamorphosis by Peter Pegnall.</p><br><p>The first half of the performance features Tracey Catchpole, fresh from her triumphant role in Cocteau’s ‘The Human Voice’ at The Hostry Festival in Norwich Cathedral; directed by Stash Kirkbride. These haunting tales of sexual obsession are set against original and  improvised arrangements by The Archaos Ensemble (featuring Caroline Bishop and Ivan McCready on violin and cello).</p><br><p>The second half of the performance has Harpist Joy Smith take to the stage alongside storytellers Peter Pegnall, Andrea Holland and Sue Burge for a collage of poetry and music, their own work and echoes from the past.</p><br><p><a href=\"More details from Anteros\">https://www.anterosfoundation.com/what-s-on</a></p>",
+            "attachment": ""
+        },
+        {
+            "id": 3,
+            "title": "Andrea performing as part of 'Shame' at Komedia",
+            "date": "24012019",
+            "author": "New Amusements",
+            "body": "<p>The 17th of January saw Andrea read as part of <i>Shame</i> at Komedia in Brighton. <i>Shame</i> is a collage of music and poetry, incorporating two mythic monologues, adapted from Ovid’s Metamorphosis by Peter Pegnall.</p>",
+            "attachment": "./resources/media/ach_reading_at_komedia.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Casa dos Poetas 2019",
+            "date": "10042019",
+            "author": "New Amusements",
+            "body": "<p>Andrea will be deputy co-ordinator and tutor for Casa dos Poetas 2019, a poetry residency/workshop from 16-23 May 2019, in Silves, Portugal, with poets Peter Pegnall and Sue Burge.</p>",
+            "attachment": ""
+        },
+        {
+            "id": 5,
+            "title": "Free taster session!",
+            "date": "10042019",
+            "author": "New Amusements",
+            "body": "<p>Andrea will be teaching a taster day session (FREE!) in Ipswich on the 21st of June for the Workers Educational Association (WEA), called Anderson & Fawcett: Suffolk Sisters, National Activists  - this is a 2  hour introduction to the life and work of Elizabeth Anderson and Millicent Fawcett; Suffolk sisters, Suffragettes & mid-19th century pioneers - their contribution to improving women’s opportunities, to social justice & to regional history.</p><br><p>For more info: <a href=\"https://enrolonline.wea.org.uk/Online/2018/CourseInfo.aspx?r=C2226350\">https://enrolonline.wea.org.uk/Online/2018/CourseInfo.aspx?r=C2226350</a></p>",
+            "attachment": ""    
+        },
+        {
+            "id": 6,
+            "title": "",
+            "date": "",
+            "author": "New Amusements",
+            "body": "",
+            "attachment": ""
+        },
+        {
+            "id": 7,
+            "title": "",
+            "date": "",
+            "author": "New Amusements",
+            "body": "",
+            "attachment": ""
+        },
+        {
+            "id": 8,
+            "title": "",
+            "date": "",
+            "author": "New Amusements",
+            "body": "",
+            "attachment": ""
+        },
+        {
+            "id": 9,
+            "title": "",
+            "date": "",
+            "author": "New Amusements",
+            "body": "",
+            "attachment": ""
+        }
+    ]
+}

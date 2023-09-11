@@ -1,0 +1,17 @@
+/* TAGS */
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: whitesmoke;
+    background-image: url(../resources/media/background-top.png);
+    border-color: whitesmoke;
+    border-width: 4px;
+    border-style: solid;
+    filter: grayscale(30%);
+    padding: 7vh 0px 2vh 30px;
+    margin-bottom: 0px !important;
+}
+

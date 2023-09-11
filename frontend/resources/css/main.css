@@ -1,0 +1,356 @@
+/* @import "tags.css";
+@import "ids.css";
+@import "classes.css";
+@import "mediaqueries.css"; */
+
+#core {
+    min-height: 100vh;
+}
+
+#page header .level-left .title,
+#page header .level-left .title a,
+#contentContainer .title {
+    color: whitesmoke;
+    font-family: "Trebuchet MS",Trebuchet,sans-serif;
+    font-weight: bold;
+}
+
+#contentContainer .subtitle {
+    color: #93584d;
+}
+
+#page header .level-left .title a:hover,
+#page header .level-left .title:hover a {
+    color: #e64c2d;
+}
+
+#bulmaLogo, #bulmaLogo img, #jQueryLogo {
+    height: 50px;
+    width: 256px;
+}
+
+#sideNavBar li:first-child {
+    margin-top: 10px;
+}
+
+#sideNavBar li a {
+    color: #e64c2d;
+    display: block; 
+    font-size: 25px;
+    padding: 8px 8px 8px 32px;
+}
+
+#sideNavBar li a:first-child:hover {
+    text-decoration: underline;
+}
+
+#sideNavBar li a span {
+    font-weight: bold;
+}
+
+#sideNavBar li a:hover span,
+#sideNavBar li:hover a span {
+    text-decoration: none !important;
+}
+
+#core:not(footer#footer) hr, #sideNavBar hr {
+    background-color: #e64c2d;
+}
+
+#footer hr, #footer a {
+    background-color: 
+    color: initial;
+}
+
+#sideNavBar .menu-list li ul,
+#sideNavBar .menu-list li ul a {
+    transition: 0.5s;
+}
+
+#sideNavBar .menu-list li ul {
+    border-left: 1px solid #e64c2d80; 
+}
+
+#sideNavBar .menu-list li ul li a {
+    font-size: 20px;
+}
+
+/* TAGS */
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: whitesmoke;
+    background-image: url(../media/background-top.png);
+    border-color: whitesmoke;
+    border-width: 4px;
+    border-style: solid;
+    filter: grayscale(30%);
+    padding: 7vh 0px 2vh 30px;
+    margin-bottom: 0px !important;
+}
+
+#core:not(footer#footer) a, #sideNavBar a {
+    color: #e64c2d;
+}
+
+#core:not(footer#footer) a, #sideNavBar a:hover {
+    color: steelblue;
+}
+
+#core:not(footer#footer) a, #sideNavBar a:visited {
+    color: #93584d;
+}
+
+/* IDS */
+
+#core {
+    background-color: #efd893;
+    background-image: url(../media/background.png);
+    background-repeat: repeat-x;
+    transition: 0.5s;
+}
+
+#page {
+    background-color: whitesmoke;
+    border-color: SteelBlue;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Georgia",serif;
+    left: 25vw;
+    margin: 0 0 10vh 0;
+    position: relative;
+    top: 2vh;
+    width: 50vw;
+}
+
+#bodyObject {
+    position: relative;
+}
+
+#sideNavBar {
+    background-color: whitesmoke;
+    /* border-bottom: 1px solid steelblue !important; */
+    font-family: "Georgia",serif;
+    height: 100vh;
+    overflow-x: hidden;
+    position: fixed;
+    /* top: -20px; */
+    transition: 0.5s;
+    width: 0;
+    z-index: 5;
+}
+
+#contentContainer {
+    padding: 1vh 1vw;
+}
+
+#footer {
+    height: 0;
+    overflow-y: hidden;
+}
+
+#bulmaLogo {
+    background-image: url("../media/made-with-bulma--semiblack.png");
+    background-origin: padding-box;
+    background-position: -6px -1px;
+    background-repeat: no-repeat;
+    background-size: 261px 50px;
+}
+
+#jQueryLogo {
+    background-image: url("../media/jquery-mark-light_cropped.png");
+    background-origin: padding-box;
+    background-position: 59px 7px;
+    background-repeat: no-repeat;
+    background-size: 131px 34px;
+}
+
+#pageButtons {
+    /* bottom: calc(100% - 5rem); */
+    height: 50px;
+    left: calc(100% - 14rem);
+    position: fixed;
+    /* right: calc(100% - 4rem); */
+    top: calc(100% - 5rem);
+    width: 50px;
+    z-index: 10000;
+}
+
+#burger {
+    color: steelblue;
+    font-size: 50px;
+    position: relative;
+    top: -15px;
+}
+
+#burger:hover {
+    color: #e64c2d;
+}
+
+#burger:visited {
+    color: initial;
+}
+
+/* #creditsDeskop {
+    font-size: 50px;
+    position: relative;
+    top: -15px;
+} */
+
+/* CLASSES */
+
+.is-half-size {
+    height: 50vh;
+}
+
+.footer {
+    background-color: #efd893;
+    left: 25vw;
+    position: relative; 
+    width: 50vw;
+}
+
+.text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.twitterButton {
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+
+.linkedinButton {
+    background-image: url("../media/LI-In-Bug.png");
+    background-origin: padding-box;
+    background-position: -5px -5px;
+    background-repeat: no-repeat;
+    background-size: 55px 50px;
+    border: 5px solid #2766B1;
+    border-radius: 3px;
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+
+.visableInPrintOnly {
+    display: none;
+}
+
+/* .is-300x300 {
+    height: 5;
+    width: 300px;
+} */
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+    #page {
+        left: 0vw;
+        margin: 0;
+        position: relative;
+        top: 0;
+        width: 100vw;
+    }
+
+    header.level {
+        padding-top: 4vh;
+    }
+
+    #pageButtons {
+        left: calc(100% - 6rem);
+        right: 0;
+    }
+    
+    #burger {
+        background-color: #efd893;
+        border-radius: 100px;
+        display: inline-block;
+        width: 75px;
+    }
+
+    #burger span {
+        font-size: 42.5px;
+        left: 18px;
+        position: relative;
+        top: -4.5px;
+    }
+
+    /* #sideNavBar {
+        
+    } */
+
+        #sideNavBar li {
+            font-size: 15px;
+        }
+
+        #sideNavBar .twitterButton {
+            box-sizing: unset;
+        }
+}
+
+@media (min-width: 1025px ) and (max-width: 1225px) {
+
+    #page header.level,
+    #page header.level .level-right {
+        display: block;
+    }
+
+    #search {
+        margin-top: 5px;
+    }
+
+}
+
+@media screen and (max-height: 450px) {
+    #sideNavBar {padding-top: 15px;}
+    #sideNavBar a {font-size: 18px;}
+}
+
+@media print {
+    #sideNavBar, #pageButtons, #search {
+        display: none;
+    }
+
+    #page {
+        left: 0vw;
+        margin: 0;
+        position: relative;
+        top: 0;
+        width: 100vw;
+    }
+
+    header.level {
+        padding-top: 4vh;
+    }
+    
+    #contentContainer a.printAttr {
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+    }
+    
+    #contentContainer a.printAttr::before {
+        content: "Purchase Here: ";
+    }
+    
+    #contentContainer a.printAttr::after {
+        content: attr(href);
+    }
+
+    #contentContainer a.printAttr button {
+        display: none;
+    }
+
+    .hero.is-fullheight {
+        min-height: 100vh;
+    }
+
+    .visableInPrintOnly {
+        display: block;
+    }
+
+}
+

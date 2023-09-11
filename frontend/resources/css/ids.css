@@ -1,0 +1,86 @@
+/* IDS */
+
+#core {
+    background-color: #efd893;
+    background-image: url(../resources/media/background.png);
+    background-repeat: repeat-x;
+    transition: 0.5s;
+}
+
+#page {
+    background-color: whitesmoke;
+    border-color: SteelBlue;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Georgia",serif;
+    left: 25vw;
+    margin: 0 0 10vh 0;
+    position: relative;
+    top: 2vh;
+    width: 50vw;
+}
+
+#bodyObject {
+    position: relative;
+}
+
+#sideNavBar {
+    background-color: whitesmoke;
+    /* border-bottom: 1px solid steelblue !important; */
+    font-family: "Georgia",serif;
+    height: 100vh;
+    overflow-x: hidden;
+    position: fixed;
+    /* top: -20px; */
+    transition: 0.5s;
+    width: 0;
+    z-index: 5;
+}
+
+#contentContainer {
+    padding: 1vh 1vw;
+}
+
+#footer {
+    height: 0;
+    overflow-y: hidden;
+}
+
+#bulmaLogo {
+    background-image: url("../resources/media/made-with-bulma--semiblack.png");
+    background-origin: padding-box;
+    background-position: -6px -1px;
+    background-repeat: no-repeat;
+    background-size: 261px 50px;
+}
+
+#jQueryLogo {
+    background-image: url("../resources/media/jquery-mark-light_cropped.png");
+    background-origin: padding-box;
+    background-position: 59px 7px;
+    background-repeat: no-repeat;
+    background-size: 131px 34px;
+}
+
+#pageButtons {
+    /* bottom: calc(100% - 5rem); */
+    height: 50px;
+    left: calc(100% - 14rem);
+    position: fixed;
+    /* right: calc(100% - 4rem); */
+    top: calc(100% - 5rem);
+    width: 50px;
+    z-index: 10000;
+}
+
+#burger {
+    font-size: 50px;
+    position: relative;
+    top: -15px;
+}
+
+/* #creditsDeskop {
+    font-size: 50px;
+    position: relative;
+    top: -15px;
+} */

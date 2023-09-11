@@ -1,0 +1,36 @@
+/* CLASSES */
+
+.footer {
+    background-color: #efd893;
+    left: 25vw;
+    position: relative; 
+    width: 50vw;
+}
+
+.text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.twitterButton {
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+
+.linkedinButton {
+    background-image: url("../resources/media/LI-In-Bug.png");
+    background-origin: padding-box;
+    background-position: -5px -5px;
+    background-repeat: no-repeat;
+    background-size: 55px 50px;
+    border: 5px solid #2766B1;
+    border-radius: 3px;
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+
+/* .is-300x300 {
+    height: 5;
+    width: 300px;
+} */

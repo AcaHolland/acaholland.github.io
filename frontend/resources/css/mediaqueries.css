@@ -1,0 +1,56 @@
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+    #page {
+        left: 0vw;
+        margin: 0;
+        position: relative;
+        top: 0;
+        width: 100vw;
+    }
+
+    header.level {
+        padding-top: 4vh;
+    }
+
+    #pageButtons {
+        left: calc(100% - 6rem);
+        right: 0;
+    }
+    
+    #burger {
+        background-color: #efd893;
+        border-radius: 100px;
+        display: inline-block;
+        width: 75px;
+    }
+
+    #burger span {
+        font-size: 42.5px;
+        left: 18px;
+        position: relative;
+        top: -4.5px;
+    }
+
+    /* #sideNavBar {
+        
+    } */
+
+        #sideNavBar a {
+            font-size: 15px;
+        }
+
+        #sideNavBar .twitterButton {
+            box-sizing: unset;
+        }
+}
+
+@media screen and (min-width: 1025px ) and (max-width: 1225) {
+    align-items: initial;
+    justify-content: initial;
+}
+
+@media screen and (max-height: 450px) {
+    #sideNavBar {padding-top: 15px;}
+    #sideNavBar a {font-size: 18px;}
+}
